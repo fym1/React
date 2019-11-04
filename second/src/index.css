@@ -1,0 +1,212 @@
+/* 在CSS文件中引入antd的css文件 */
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ccc;
+}
+.header{
+    height: 50px;
+    background-color: #444;
+}
+.header header{
+    width: 1200px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.header header a{
+    margin: 0 20px;
+    color: #fff;
+}
+.header img{
+    width: 120px;
+    float: left;
+}
+.header input{
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  border-radius: 15px;
+  border:1px black solid;
+  float:left;
+  margin-top: 10px;
+}
+
+/* content */
+.content{
+    width: 1400px;
+    margin: 20px auto 0;
+    /* height: 2150px; */
+    overflow: hidden;
+}
+.left{
+    width: 1100px;
+    float: left;
+}
+.right{
+    width: 290px;
+    float: right;
+}
+.a{
+  width: 100%;
+  padding: 8px;
+  background-color: white;
+  margin-top: 10px;
+}
+.a p{
+    font-size: 13px;
+}
+.a button{
+    width: 130px;
+    height:28px;
+    background-color: #5bc0de;
+    border-radius: 4px;
+}
+.a:nth-child(2) img{
+    margin-top: 5px;
+    width: 270px;
+    height: 65px;
+}
+.a:nth-child(5) img{
+    margin-top: 5px;
+    width: 150px;
+    height: 49.5px;
+}
+.a:nth-child(6) img{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 35px;
+}
+/*home*/
+.home{
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  background-color: #f6f6f6;
+  padding-top: 10px;
+}
+.home a{
+  margin: 0 20px;
+  color: #fff;
+  background-color: #80bd01;
+  padding:3px 4px;
+  border-radius: 3px;
+}
+/*all*/
+.all{
+    width: 1100px;
+    padding:10px 0 10px 10px;
+    background-color: white;
+}
+.img1{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+.img2{
+    height: 18px;
+    width: 18px;
+    float: right;
+    margin-right: 10px;
+}
+.jing{
+    height: 18px;
+    width: 32px;
+    color: #fff;
+    background-color: #80bd01;
+    border-radius: 3px;
+    float: left;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+.title{
+    /* background-color: red; */
+    width: 650px;
+}
+.first {
+    font-size: 1em;
+    float: left;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    width: 600px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    margin-top: 3px;
+}
+.second{
+    width: 70px;
+    height: 28px;
+    font-size: 10px;
+    float: left;
+    padding-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+.third{
+    font-size: 11px;
+    float: right;
+}
+.page{
+    width: 1100px;
+    background-color: white;
+    padding-top: 10px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+.foot{
+    width:100%;
+    height: 200px;
+    background-color: white;
+    padding:20px 0;
+    margin-top: 20px;
+}
+.footer{
+    width: 1400px;
+    margin:0 auto;
+}
+.footer img:nth-child(1){
+    width: 96.38px;
+    height: 17px;
+}
+.footer img:nth-child(2){
+    width: 115px;
+    height: 43.7px;
+}
+.footer img:nth-child(3){
+    width: 166px;
+    height: 54px;
+}
+.titles{
+    height: 87px;
+    width: 1100px;
+}
+.tit{
+    font-size: 22px;
+    margin-left: 5px;
+    float: left;
+}
+.login{
+    width: 1100px;
+    height: 300px;
+    background-color: white;
+    padding: 50px 200px;
+}
+.login input{
+    height: 30px;
+    width: 284px;
+    border-radius: 5px;
+}
+.login button{
+    height: 30px;
+    width: 284px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    margin-top: 10px;
+}
