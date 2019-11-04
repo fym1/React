@@ -13,9 +13,10 @@ import Login from './container/Login'
 export default class App extends Component {
     render() {
         // let {url} = this.props.match;
+        
         console.log(this.props);
-        return (
-            <Router>
+        return (           
+            <Router basename = '/React/second/build'>
                 <div>
                     <Header/>
                 </div>
