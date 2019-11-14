@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>super-box实验</title>
+    <style>
+        
+.articleHeader {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.articleHeader .search {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+}
+
+.articleHeader .coverFlow {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+    </style>
+</head>
+<body style="text-align: center">
+    <div class="articleHeader">
+        <div class="search">
+          <ion-item ui-sref="tabsController.searchPage" id="articlePage-button10" class="item"
+                    style="opacity:0.7;background-color: #374953;border-radius: 40px;height: 32px;width: 70%;margin-left:15%">
+            <i class="ion-search" style="padding-left: 5px"></i>
+            <i style="padding-left: 15px">请输入关键字进行查询</i>
+          </ion-item>
+        </div>
+        <div class="coverFlow" style="background-color: #0a9dc7">
+          <ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="true" does-continue="true"
+                         slide-interval=2000 show-pager="true" pager-click="pageClick(index)"
+                         active-slide="model.activeIndex" delegate-handle="delegateHandler" ng-click="coverFlowClick()">
+            <ion-slide>
+              <div class="box">
+                <img src="http://img9.tu11.com:8080/picture/121022/pic5/14.jpg">
+              </div>
+            </ion-slide>
+            <ion-slide>
+              <div class="box">
+                <img src="http://down77.yousiji.com/uploads1/allimg/c101123/12Z4Qc10S10-193502.jpg">
+              </div>
+            </ion-slide>
+            <ion-slide>
+              <div class="box">
+                <img src="http://img.mm522.net/flashAll/20120206/13285185634aUfhU.jpg">
+              </div>
+            </ion-slide>
+          </ion-slide-box>
+        </div>
+      </div>
+</body>
+</html>
